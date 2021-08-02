@@ -1,1 +1,27 @@
+          System.out.print("Please Enter the detail you want to Update :");
+          System.out.print("\nFor Example :\n");
+          System.out.println(
+              "If you want to Change the Name, then Enter Current Name and Press Enter. Then write the new Name then Press Enter. It will Update the Name.\n");
+          String s = sc.nextLine();
+          System.out.print("Please Enter the Updated Info :");
+          String n = sc.nextLine();
+          try {
+            epu.updateFile(I, s, n);
 
+            System.out.print("\nPress Enter to Continue...");
+            sc.nextLine();
+            System.out.print("\033[H\033[2J");
+            obj1.menu();
+            break;
+          } catch (IOException e) {
+            System.out.println(e);
+          }
+        }
+        case 5: {
+          CodeExit obj = new CodeExit();
+          obj.out();
+        }
+  }
+}
+
+/****************************** CODED BY Shivanandh ************************/

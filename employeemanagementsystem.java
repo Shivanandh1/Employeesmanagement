@@ -15,7 +15,7 @@ class MainMenu
     System.out.println("\t  EMPLOYEE MANAGEMENT SYSTEM");
     System.out.println("*******************************************");
     System.out.println("\t\t\t--------------------");
-    System.out.println("\t\t\t ~$ Abhinav Dubey");
+    System.out.println("\t\t\t ~$ shivanandh");
     System.out.println("\t\t\t--------------------");
     System.out.println("\n\nPress 1 : To Add an Employee Details");
     System.out.println("Press 2 : To See an Employee Details ");
